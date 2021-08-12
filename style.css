@@ -1,11 +1,15 @@
 body {
-    min-width: 300px;
-    max-width: 500px;
+    min-width: 305px;
+    max-width: 520px;
     margin: 0;
     padding: 10px;
     background-color: #eefa84;
     min-height: 400px;
     border: 3px solid #18cf00;
+}
+
+ul {
+    list-style-type: none;
 }
 
 #textToSave {
@@ -17,6 +21,15 @@ body {
 }
 
 #saveButton {
+    margin-top: 3px;
+    background-color: #18cf00;
+    border: none;
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#saveLink {
     margin-top: 3px;
     background-color: #18cf00;
     border: none;
